@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Latihan HTML 11</title>
+</head>
+
+<body>
+    <!-- 
+        Form = digunakan untuk mengelola data dari input yang dilakukan oleh users 
+        Elemen form :
+        1. input    = berguna untuk menginput kan / memasukan sesuatu oleh users
+        tag input <input type=""> mempunyai value text, password, radio, checkbox, submit, reset, button
+
+        untuk button itu bukan element input tetapi untuk membuat tombol
+        elemen type nya ada submit, reset button
+
+        Tag Fieldset berfungsi untuk mengelompokkan beberapa objek form menjadi sebuah kelompok,
+
+        2. textarea     = berguna untuk menginput kan text lebih banyak. biasanya dipakai untuk komentar. pesan dll
+        3. select       = untuk membuat dropdown / combobox
+        4. button       = tombol untuk mengirimkan data nya
+        5. label        = untuk menandai sebuah elemen input
+        6. legend form      =  Tag Legend berfungsi untuk menampilkan judul dari kelompok objek form tersebut. 
+        7. details form     = details merupakan element interaktif yang digunakan untuk menentukkan rincian (detail)
+                              konten tambahan yang dapat ditampilkan atau disembunyikan oleh user..
+        8. multiple select  =  digunakan untuk memungkinkan user untuk dapat memilih lebih dari 1 nilai. Namun untuk 
+                              dapat memilih lebih dari 1 nilai, user harus menekan tombol ctrl
+        9. multiple input   = ini menetapkan bahwa pengguna diizinkan untuk memasukkan lebih dari satu nilai 
+                              dalam elemen <input>.
+
+    -->
+
+    <form>
+
+        <h3>Form Textfield</h3>
+        <th><label for="username">Username :</label></th>
+        <td><input type="text" id="username"></td>
+        <br><br>
+        <th><label for="password">Password :</label></th>
+        <td><input type="password" id="password"></td>
+        <hr>
+
+        <h3>Form Radio Button</h3>
+        <label for="pria">Pria :</label>
+        <input type="radio" id="pria" name="kelamin">
+
+        <label for="wanita">Wanita :</label>
+        <input type="radio" id="wanita" name="kelamin">
+        <hr>
+
+        <h3>Form checkbox</h3>
+        <label for="musik">Musik :</label>
+        <input type="checkbox" id="musik">
+
+        <label for="Traveler">Traveler :</label>
+        <input type="checkbox" id="Traveler">
+
+        <label for="Ngopi">Ngopi :</label>
+        <input type="checkbox" id="Ngopi">
+        <hr>
+
+        <h3>Form TextArea</h3>
+        <textarea cols="22" rows="5"></textarea>
+        <hr>
+
+        <h3>Form Button</h3>
+        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button>
+        <button type="menu">menu</button>
+        <hr>
+
+        <h3>Form Select dropdown</h3>
+        <label for="kota">Kota</label>
+
+        <select name="Kota" id="kota">
+            <option>Kota Bandung</option>
+            <option>Kota Surabaya</option>
+            <option>Kota Bali</option>
+            <option>Kota Jakarta</option>
+            <option>Kota Medan</option>
+        </select>
+
+        <br>
+        <hr>
+    </form>
+
+</body>
+
+</html>
