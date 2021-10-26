@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Latihan HTML 11</title>
+</head>
+
+<body>
+    <!-- 
+        Form = digunakan untuk mengelola data dari input yang dilakukan oleh users 
+        Elemen form :
+        1. input    = berguna untuk menginput kan / memasukan sesuatu oleh users
+        tag input <input type="">
+
+        <input type="button">
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="file">
+        <input type="hidden">
+        <input type="image">
+        <input type="month">
+        <input type="number">
+        <input type="password">
+        <input type="radio">
+        <input type="range">
+        <input type="reset">
+        <input type="search">
+        <input type="submit">
+        <input type="tel">
+        <input type="text">
+        <input type="time">
+        <input type="url">
+        <input type="week">
+
+        attribut dari input :
+
+        value           = Atribut input menentukan nilai awal untuk bidang input:
+
+        readonly        = Atribut input menentukan bahwa field input adalah read-only.
+
+        disabled        = Atribut input menentukan bahwa bidang input harus dinonaktifkan.
+
+        maxlength       = Atribut input menentukan jumlah karakter maksimum yang diizinkan dalam bidang input.
+
+        min dan max     = atribut menentukan nilai minimum dan maksimum untuk bidang input.
+
+        multiple        = Atribut input menentukan bahwa pengguna diizinkan untuk memasukkan lebih dari satu nilai dalam bidang input.
+
+        placeholder     = Petunjuk singkat ditampilkan di bidang input sebelum pengguna memasukkan nilai.
+
+        required        = Atribut input menentukan bahwa bidang input harus diisi sebelum mengirimkan formulir.
+
+        autofocus       = Atribut input menentukan bahwa bidang input harus secara otomatis
+        mendapatkan fokus saat halaman dimuat.
+
+        autocomplete    = Atribut input menentukan apakah formulir atau
+        bidang input harus memiliki pelengkapan otomatis aktif atau nonaktif.
+        Saat pengguna mulai mengetik di bidang, browser akan menampilkan opsi untuk mengisi bidang,
+        berdasarkan nilai yang diketik sebelumnya
+
+        untuk button itu bukan element input tetapi untuk membuat tombol
+        elemen type nya ada submit, reset button
+
+        Tag Fieldset berfungsi untuk mengelompokkan beberapa objek form menjadi sebuah kelompok,
+
+        2. textarea         = berguna untuk menginput kan text lebih banyak. biasanya dipakai untuk komentar. pesan dll
+        3. select           = untuk membuat dropdown / combobox
+        4. button           = tombol untuk mengirimkan data nya
+        5. label            = untuk menandai sebuah elemen input
+        6. legend form      =  Tag Legend berfungsi untuk menampilkan judul dari kelompok objek form tersebut. 
+        7. details form     = details merupakan element interaktif yang digunakan untuk menentukkan rincian (detail)
+                            konten tambahan yang dapat ditampilkan atau disembunyikan oleh user..
+        8. multiple select  =  digunakan untuk memungkinkan user untuk dapat memilih lebih dari 1 nilai. Namun untuk 
+                            dapat memilih lebih dari 1 nilai, user harus menekan tombol ctrl
+        9. multiple input   = ini menetapkan bahwa pengguna diizinkan untuk memasukkan lebih dari satu nilai 
+                            dalam elemen <input>.
+
+    -->
+
+    <form>
+
+        <h3>Form Textfield</h3>
+        <th><label for="username">Username :</label></th>
+        <td><input type="text" id="username"></td>
+        <br><br>
+        <th><label for="password">Password :</label></th>
+        <td><input type="password" id="password"></td>
+        <hr>
+
+        <h3>Form Radio Button</h3>
+        <label for="pria">Pria :</label>
+        <input type="radio" id="pria" name="kelamin">
+
+        <label for="wanita">Wanita :</label>
+        <input type="radio" id="wanita" name="kelamin">
+        <hr>
+
+        <h3>Form checkbox</h3>
+        <label for="musik">Musik :</label>
+        <input type="checkbox" id="musik">
+
+        <label for="Traveler">Traveler :</label>
+        <input type="checkbox" id="Traveler">
+
+        <label for="Ngopi">Ngopi :</label>
+        <input type="checkbox" id="Ngopi">
+        <hr>
+
+        <input type="submit" value="kirim">
+        <input type="reset" value="reset">
+        <input type="submit" value="kirim">
+
+        <h3>Form TextArea</h3>
+        <textarea cols="22" rows="5"></textarea>
+        <hr>
+
+        <h3>Form Button</h3>
+        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button>
+        <button type="menu">menu</button>
+        <hr>
+
+        <h3>Form Select dropdown</h3>
+        <label for="kota">Kota</label>
+
+        <select name="Kota" id="kota">
+            <option>Kota Bandung</option>
+            <option>Kota Surabaya</option>
+            <option value="kota bali" selected>Kota Bali</option>
+            <option>Kota Jakarta</option>
+            <option>Kota Medan</option>
+        </select>
+
+        <br>
+        <hr>
+
+        <option value="fiat" selected>Fiat</option>
+    </form>
+
+</body>
+
+</html>

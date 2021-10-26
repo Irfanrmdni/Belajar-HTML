@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Latihan HTML 08</title>
+</head>
+
+<body>
+    <!-- 
+        < img src="" > ini adalah penggunaan untuk melakukan perintah image
+        jadi harus menggunakan atribut src=""
+
+        file gambar yang kita simpan ada 2 macam:
+        1. internal resource  = gambar yang kita simpan di dalam folder sendiri
+        2. eksternal resource = tidak disarankan
+
+        atribut img :
+        1. src           = untuk menyisipkan link nya dari gambar tersebut
+        2. alt           = untuk memberikan text alternatif pada gambar. jika gambar nya memiliki masalah / tidak tampil
+        3. title         = untuk memberikan judul pada gambar
+        4. width/lebar   = untuk mengatur ukuran lebar pada gambar
+        5. height/tinggi = untuk mengatur ukuran tinggi pada gambar
+
+        jika kita menuliskan width/height nya angka saja maka default nya px/pixel
+        kalau menambahkan % maka ukuran nya relative terhadap halaman nya
+
+        rekomendasi sebaiknya menggunakan atribut width saja
+    -->
+    <hr>
+    <h3>Ukuran default gamba</h3>
+    <img src="My-logo.png" alt="ini adalah logo IRStudio" title="Logo-IRStudio">
+    <hr>
+
+    <br>
+
+    <hr>
+    <h3>Mengatur ukuran gambar dengan px</h3>
+    <img src="My-logo.png" alt="ini adalah logo IRStudio" title="Logo-IRStudio" width="300" height="300">
+    <hr>
+
+    <br>
+
+    <hr>
+    <h3>Mengatur ukuran gambar dengan %</h3>
+    <img src="My-logo.png" alt="ini adalah logo IRStudio" title="Logo-IRStudio" width="15%" height="15%">
+    <hr>
+
+    <br>
+
+    <hr>
+    <h3>menyisipkan gambar dengan relative url</h3>
+    <img src="user/pdip.jpg" alt="partaiPDIP" title="banteng" height="300px">
+
+    <hr>
+    <h3>Menyisipkan link dengan menggunakan gambar</h3>
+    <a href="http://facebook.com"> <img src="My-Logo.png"> </a>
+    <hr>
+
+
+
+</body>
+
+</html>

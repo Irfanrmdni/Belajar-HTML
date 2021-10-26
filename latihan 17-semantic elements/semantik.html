@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan HTML 17</title>
+</head>
+
+<body>
+    <!--
+        Semantik HTML adalah elemen-elemen yang menyatakan makna atau tujuan dari elemen itu sendiri
+        Penggunaan semantic tag dari HTML5 juga akan bermanfaat bagi SEO (Search Engine Optimization), 
+        disebabkan struktur halamannya akan menjadi lebih jelas. Mesin pencari juga bisa lebih
+        memprioritaskan bagian mana yang perlu diberikan penekanan (seperti <header> atau <article>) 
+        dan bagian mana yang hanya berupa keterangan ( seperti <aside> atau <footer> ).
+
+        <article>       — untuk membuat elemen artikel contoh : Posting forum , Posting blog , Artikel koran
+        <aside>         — untuk membuat elemen bagian samping;
+        <details>       — untuk membuat elemen datail atau spoiler;
+        <figcaption>    — untuk membuat teks caption pada figure;
+        <figure>        — untuk membuat figur atau gambar pada artikel;
+        <footer>        — untuk membuat elemen bagian kaki dari web contoh : informasi kepenulisan , informasi hak cipta 
+                        kontak informasi , peta situs , link kembali ke atas , Dokumen terkait
+        <header>        — untuk mebuat kepala kop dari web contoh : satu atau lebih elemen heading (<h1> - <h6>)
+                        logo atau ikon , informasi kepenulisan
+        <main>          — untuk membuat elemen utama. disarankan hanya digunakan 1x saja
+        <mark>          — untuk menandai teks;
+        <nav>           — untuk membuat navigasi;
+        <section>       — untuk membuat bagian artikel;
+        <summary>       — untuk membuat ringkasan artikel atau isi spoiler;
+        <time>          — untuk membuat elemen yang menyatakan waktu;
+    -->
+
+    <!-- ini header dari halaman WEB -->
+    <header>
+        <h1>
+            <img src="Icon-Mata.png" alt="MyLogo" width="50px" title="MyLogo">
+            Selamat Datang di IRStudio
+        </h1>
+    </header>
+
+    <!-- ini navigasi dari halaman WEB -->
+    <nav>
+        <br>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>
+                    <a href="#">Home</a> |
+                    <a href="#">Portofolio</a> |
+                    <a href="#">About</a> |
+                    <a href="#">Contact</a> <br>
+                </td>
+            </tr>
+        </table>
+    </nav>
+
+    <!-- ini main dari halaman WEB -->
+    <main>
+        <header>
+            <h2>Apa itu IRStudio ?</h2>
+        </header>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi sequi quisquam. Dolorum nihil illum
+            provident, nostrum laudantium quas, doloremque quaerat quam amet tempore quibusdam voluptas. Deserunt
+            dolores laborum accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi sequi
+            quisquam. Dolorum nihil illum
+            provident, nostrum laudantium quas, doloremque quaerat quam amet tempore quibusdam voluptas. Deserunt
+            dolores laborum accusantium?</p>
+
+        <header>
+            <h2>Kenapa harus IRStudio ?</h2>
+        </header>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi sequi quisquam. Dolorum nihil illum
+            provident, nostrum laudantium quas, doloremque quaerat quam amet tempore quibusdam voluptas. Deserunt
+            dolores laborum accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi sequi
+            quisquam. Dolorum nihil illum
+            provident, nostrum laudantium quas, doloremque quaerat quam amet tempore quibusdam voluptas. Deserunt
+            dolores laborum accusantium?</p>
+
+        <header>
+            <h2>Mari bergabung bersama IRStudio</h2>
+        </header>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi sequi quisquam. Dolorum nihil illum
+            provident, nostrum laudantium quas, doloremque quaerat quam amet tempore quibusdam voluptas. Deserunt
+            dolores laborum accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi sequi
+            quisquam. Dolorum nihil illum
+            provident, nostrum laudantium quas, doloremque quaerat quam amet tempore quibusdam voluptas. Deserunt
+            dolores laborum accusantium?</p>
+    </main>
+
+    <!-- ini section untuk artikel dan didalamnya ada figure untuk memberi gambar -->
+    <section>
+        <article>
+            <header>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <tr>
+                        <td>
+                            <h3>Video Editing</h3>
+                            <figure>
+                                <img src="Icon-Mata.png" title="gambar video editing" alt="mmata" width="50px">
+                                <figcaption>Gambar 1 - video editing</figcaption>
+                            </figure>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deleniti repudiandae
+                                nihil a commodi
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+        </article>
+        <br>
+        <article>
+            <header>
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td>
+                            <h3>Graphic Designer</h3>
+                            <figure>
+                                <img src="Icon-Mata.png" title="gambar graphic designer" alt="icon" width="50px">
+                                <figcaption>Gambar 2 - graphic designer</figcaption>
+                            </figure>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deleniti repudiandae
+                                nihil a commodi</p>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+        </article>
+        <br>
+        <article>
+            <header>
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td>
+                            <h3>Animation</h3>
+                            <figure>
+                                <img src="Icon-Mata.png" title="icon mata" alt="icon" width="50px">
+                                <figcaption>Gambar 3 - Animation</figcaption>
+                            </figure>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deleniti repudiandae
+                                nihil a commodi</p>
+                        </td>
+                    </tr>
+                </table>
+
+            </header>
+
+        </article>
+    </section>
+
+    <!-- ini sidebar dari halaman WEB -->
+    <aside>
+        <ol>
+            <li>
+                <header>
+                    <h3>Apa yang didapat?</h3>
+                </header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae inventore quaerat cupiditate rem
+                    culpa molestias error architecto mollitia, labore perferendis porro eum, exercitationem voluptatem
+                    ipsa alias consectetur repellat totam unde?</p>
+            </li>
+
+            <li>
+                <header>
+                    <h3>Bagaimana cara mendapatkannya?</h3>
+                </header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolore quidem sit! Porro
+                    repudiandae exercitationem distinctio explicabo voluptatibus quidem ipsam, incidunt dolorem vero
+                    quod nostrum ea ut non magni molestias?</p>
+            </li>
+        </ol>
+    </aside>
+
+    <footer>
+        <p>Copyright@2020 PT.IRStudio Tech</p>
+    </footer>
+
+</body>
+
+</html>

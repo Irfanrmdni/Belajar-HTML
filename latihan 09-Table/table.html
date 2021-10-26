@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Latihan HTML 09</title>
+</head>
+
+<body>
+    <!-- 
+        cell/data           = yaitu perpotongan antara baris dan kolom
+        header              = yaitu judul dari tiap-tiap kolom
+        <tr>                = yaitu disebut sebagai baris
+        <td>                = yaitu disebut sebagai kolom
+
+        atribut dari table :
+        1. border       = digunakan untuk menambahkan garis di sekitar cell
+        2. cellspacing  = digunakan untuk menambah jarak antar cell
+        3. cellpadding  = digunakan untuk memberi luas pada cell
+        4. colspan
+        5. rowspan
+
+        table dibagi menjadi 2 macam
+        1. table simple\
+        2. table complex
+
+        contoh penggunaan :
+         <table>
+             <tr>
+                 <td>
+                 </td>
+             </tr>
+        </table>
+        
+    -->
+
+    <table border="2" cellspacing="0" cellpadding="8">
+        <tr>
+            <td>baris 1, kolom 1</td>
+            <td>baris 1, kolom 2</td>
+        </tr>
+
+        <tr>
+            <td>baris 2, kolom 1</td>
+            <td>baris 2, kolom 2</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table border="2" cellspacing="0" cellpadding="10">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>header 1</th>
+                <th>header 2</th>
+                <th>header 3</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>1.</th>
+                <td> baris 1, kolom 1</td>
+                <td> baris 1, kolom 2</td>
+                <td> baris 1, kolom 3</td>
+            </tr>
+
+            <tr>
+                <th>2.</th>
+                <td> baris 2, kolom 1</td>
+                <td> baris 2, kolom 2</td>
+                <td> baris 2, kolom 3</td>
+            </tr>
+
+            <tr>
+                <th>3.</th>
+                <td> baris 3, kolom 1</td>
+                <td> baris 3, kolom 2</td>
+                <td> baris 3, kolom 3</td>
+            </tr>
+
+            <tr>
+                <th>4.</th>
+                <td> baris 4, kolom 1</td>
+                <td> baris 4, kolom 2</td>
+                <td> baris 4, kolom 3</td>
+            </tr>
+
+            <tr>
+                <th>5.</th>
+                <td> baris 5, kolom 1</td>
+                <td> baris 5, kolom 2</td>
+                <td> baris 5, kolom 3</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+    <br><br>
+
+    <table border="2" cellspacing="0" cellpadding="8">
+        <thead>
+            <tr>
+                <th></th>
+                <th>kolom 1</th>
+                <th>kolom 2</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>baris 1</th>
+                <td>baris 1, kolom 1</td>
+                <td>baris 1, kolom 2</td>
+            </tr>
+
+            <tr>
+                <th>baris 2</th>
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <table rules="rows">
+        <tr>
+            <td>baris 1</td>
+            <td>baris 1</td>
+            <td>baris 1</td>
+        </tr>
+        <tr>
+            <td>baris 1</td>
+            <td>baris 1</td>
+            <td>baris 1</td>
+        </tr>
+        <tr>
+            <td>baris 1</td>
+            <td>baris 1</td>
+            <td>baris 1</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table rules="cols">
+        <tr>
+            <td>baris 1</td>
+            <td>baris 1</td>
+            <td>baris 1</td>
+        </tr>
+        <tr>
+            <td>baris 1</td>
+            <td>baris 1</td>
+            <td>baris 1</td>
+        </tr>
+        <tr>
+            <td>baris 1</td>
+            <td>baris 1</td>
+            <td>baris 1</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>

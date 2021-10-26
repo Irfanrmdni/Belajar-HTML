@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Latihan HTML-Table dan Form</title>
+</head>
+
+<body>
+    <h3>Membuat Form dibungkus dengan Table</h3>
+    <hr><br>
+
+    <form>
+        <!-- Dibungkus dengan table agar lebih rapih -->
+        <table border="1" cellspacing="0" cellpadding="6">
+            <tr>
+                <th><label for="username">Username :</label></th>
+                <td><input type="text" id="username"></td>
+            </tr>
+
+            <tr>
+                <th><label for="password">Password :</label></th>
+                <td><input type="password" id="password"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <label for="pria">Pria :</label>
+                    <input type="radio" id="pria" name="kelamin">
+                    <label for="wanita">Wanita :</label>
+                    <input type="radio" id="wanita" name="kelamin">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <label for="musik">Musik :</label>
+                    <input type="checkbox" id="musik">
+
+                    <label for="Traveler">Traveler :</label>
+                    <input type="checkbox" id="Traveler">
+
+                    <label for="Ngopi">Ngopi :</label>
+                    <input type="checkbox" id="Ngopi">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="kota">Kota</label>
+                </td>
+
+                <td>
+                    <select name="Kota" id="kota">
+                        <option>Kota Bandung</option>
+                        <option>Kota Surabaya</option>
+                        <option>Kota Bali</option>
+                        <option>Kota Jakarta</option>
+                        <option>Kota Medan</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Pesan</td>
+
+                <td>
+                    <textarea cols="22" rows="5"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Kirim</button>
+                    <button type="reset">Batal</button>
+                    <button type="menu">menu</button>
+                </td>
+            </tr>
+        </table>
+        >
+    </form>
+</body>
+
+</html>
